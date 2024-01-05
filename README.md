@@ -12,4 +12,3 @@ Welcome to my Personal Portfolio repository! This project is a comprehensive sho
 
 ## Technology Stack
 [Your Technology Stack Details Here]
-
