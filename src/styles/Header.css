@@ -1,0 +1,18 @@
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Adjusted for space distribution */
+    align-items: center; /* Adjusted for vertical alignment */
+    padding: 1em; /* Adjusted padding */
+    background-color: rgb(80, 83, 87);
+    color: #fff;
+}
+
+.Title {
+    margin: 0; /* For title alignment */
+}
+
+.Subtitle {
+    padding: right 5px; 
+}

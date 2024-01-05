@@ -1,0 +1,25 @@
+/* NavBar.css */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Changed to flex for better alignment */
+    align-items: center; /* Align items vertically */
+}
+
+nav ul li {
+    /* Removed float: left; as flexbox is now handling layout */
+}
+
+nav ul li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration:none;
+}
+
+nav ul  a:hover {
+    color: skyblue ;
+    display: flex;
+}
