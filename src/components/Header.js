@@ -5,7 +5,9 @@ import NavBar from './Navbar';
 const Header = () => {
     return (
         <header className="Header">
-            <h1 className="Title">Sofianos Lampropoulos</h1>
+            <img src="/images/Black and White Elegant Minimal Monogram Personal Logo.png" alt="Sofianos Lampropoulos Logo" className="PersonalLogo" />
+            <h2 className='id'>Sofianos Lampropoulos</h2>
+            
                 
                     
         <NavBar/>

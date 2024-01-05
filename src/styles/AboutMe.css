@@ -25,7 +25,7 @@
 
   .EducationLogo{
     width: 100px;
-    margin-right: 1 rem;
+    margin-left:  1em;
   }
   
   .Experience h4 {
@@ -55,6 +55,8 @@
     margin-right: 1rem;
     /* You can add more styling, such as a border-radius if the logo is circular, etc. */
   }
+
+ 
   
   /* Responsive styling if needed */
   @media (max-width: 768px) {

@@ -9,6 +9,25 @@
     color: #fff;
 }
 
+.AboutMeContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.PersonalImage {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* This will cover the area of the box without stretching the image */
+  border: 3px solid #fff; /* Optional: adds a border around the image */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a shadow for depth */
+}
+
+
+
+
 .Title {
     margin: 0; /* For title alignment */
 }
@@ -16,3 +35,27 @@
 .Subtitle {
     padding: right 5px; 
 }
+
+.PersonalLogo {
+    height: 50px; /* Adjust the size to fit your layout */
+    width: 50px; /* Set a specific width to ensure the image is a perfect circle */
+    border-radius: 50%; /* This makes the image circular */
+    margin-left: 70px;
+    object-fit: cover; /* This will ensure the image covers the area without stretching */
+    border: 2px solid rgb(0, 0, 0); /* Optional: adds a white border around the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+    /* Add padding if there's a border to prevent the image from shrinking inside */
+    padding: 2px; /* Adjust padding to suit your design */
+  }
+  
+  /* For a responsive header, you might want to adjust the logo size on smaller screens */
+  @media (max-width: 768px) {
+    .PersonalLogo {
+      height: 30px; /* Smaller logo for mobile devices */
+      width: 30px; /* Keep width and height the same for a circle */
+      margin-left: 10px;
+      /* Adjust padding as needed */
+      padding: 1px;
+    }
+  }
+  
