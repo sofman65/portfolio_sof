@@ -7,9 +7,6 @@ nav ul {
     align-items: center; /* Align items vertically */
 }
 
-nav ul li {
-    /* Removed float: left; as flexbox is now handling layout */
-}
 
 nav ul li a {
     display: flex;

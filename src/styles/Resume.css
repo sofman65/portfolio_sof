@@ -1,0 +1,14 @@
+/* In a dedicated Resume.css */
+.Resume {
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .Resume object {
+    width: 100%; /* Ensures it is responsive */
+    max-width: 800px; /* Maximum size of the CV viewer */
+    height: 100vh; /* Adjust height as needed or use a fixed height */
+    margin: auto; /* Center the CV viewer */
+    display: block;
+  }
+  

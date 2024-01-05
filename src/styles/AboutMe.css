@@ -1,0 +1,75 @@
+/* AboutMe.css */
+.AboutMe {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  .AboutMeContainer {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .AboutMe h2, .AboutMe h3 {
+    color: #19245A; /* Using the color from your navbar for consistency */
+  }
+  
+  .AboutMeContent p, .AboutMeEducation p, .AboutMeExperience p, .AboutMeSkills p, .AboutMeLanguages p, .AboutMeInterests p {
+    margin-bottom: 1rem;
+  }
+  
+  .EducationExperience h3 {
+    margin-top: 2rem;
+  }
+
+  .EducationLogo{
+    width: 100px;
+    margin-right: 1 rem;
+  }
+  
+  .Experience h4 {
+    margin-top: 1.5rem;
+    color: #19245A; /* For a consistent color theme */
+  }
+  
+  .Experience ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  
+  .Experience li {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }
+
+  
+  .ExperienceItem {
+    display: flex;
+    align-items: center; /* This will vertically center the logo with the text */
+    margin-bottom: 2rem;
+  }
+  
+  .ExperienceLogo {
+    width: 100px; /* or any size that fits well */
+    margin-right: 1rem;
+    /* You can add more styling, such as a border-radius if the logo is circular, etc. */
+  }
+  
+  /* Responsive styling if needed */
+  @media (max-width: 768px) {
+    .ExperienceLogo {
+      width: 50px; /* Smaller size for mobile */
+    }
+    .ExperienceItem {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  @media (max-width: 768px) {
+    .AboutMe {
+      padding: 1rem;
+    }
+  }
+  
+  

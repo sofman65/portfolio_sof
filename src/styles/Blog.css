@@ -1,0 +1,13 @@
+.Blog {
+    padding: 2rem;
+    background-color: #eaeaea; /* Slightly darker grey for differentiation */
+    color: #333; /* Dark text for contrast */
+  }
+  
+  .Blog h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Add styles for blog post previews, titles, read more links, etc. */
+  
