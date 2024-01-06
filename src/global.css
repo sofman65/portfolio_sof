@@ -9,10 +9,25 @@ body {
     background-color:flex;
   }
   
+  
+  
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
   }
 
+  .ContactForm form {
+    max-width: 600px;
+    margin: auto;
+  }
 
+  
 
+  
+  
+
+  
+  
+  
+  
+  
   

@@ -18,7 +18,22 @@
   .AboutMeContent p, .AboutMeEducation p, .AboutMeExperience p, .AboutMeSkills p, .AboutMeLanguages p, .AboutMeInterests p {
     margin-bottom: 1rem;
   }
+
+  .PersonalImage {
+
   
+    /* Animation properties */
+    animation-name: scaleUp;
+    animation-duration: 1s; /* Adjust the time for the animation to complete */
+    animation-fill-mode: forwards; /* Keeps the image at the final state of the animation */
+    animation-timing-function: ease-out; /* Makes the animation start quickly then slow down */
+  }
+  
+  .PersonalImage:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the scale effect */
+}
+
   .EducationExperience h3 {
     margin-top: 2rem;
   }
@@ -56,6 +71,16 @@
     /* You can add more styling, such as a border-radius if the logo is circular, etc. */
   }
 
+  @keyframes scaleUp {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
  
   
   /* Responsive styling if needed */

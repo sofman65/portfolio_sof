@@ -1,5 +1,5 @@
 // AboutMe.js
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import '../styles/AboutMe.css';
 import AboutMeSkills from './AboutMeSkills';
 import ImageModal from './ImageModal'
@@ -18,7 +18,9 @@ const AboutMe = () => {
   const handleImageClick = () => {setImageModelOpen(true)}
   
   const handleCloseModal = () => {setImageModelOpen(false)}
-
+  
+  
+  
 
   return (
     <section id="about" className="AboutMe">
