@@ -38,6 +38,21 @@ const AboutMeSkills = () => {
           </li>
         ))}
       </ul>
+      <h3>Soft Skills</h3>
+      <div className="SoftSkillsSection">
+  <h3>Business Analysis & Project Management</h3>
+  <p className="SoftSkill">
+    <strong>Requirements Elicitation & Stakeholder Communication:</strong> Expertise in gathering key business requirements and translating them into actionable insights. Skilled in facilitating effective communication between stakeholders and technical teams to align project objectives and deliverables.
+  </p>
+  <p className="SoftSkill">
+    <strong>Business Requirement Documentation:</strong> Proficient in drafting comprehensive business requirement documents (BRDs), ensuring clear and concise articulation of business needs and proposed solutions.
+  </p>
+  <p className="SoftSkill">
+    <strong>Kanban & Agile Methodologies:</strong> Experienced in Agile and Kanban project management methodologies, utilizing tools like Trello for efficient project tracking, workflow management, and team collaboration.
+  </p>
+</div>
+
+      
     </div>
   );
 }

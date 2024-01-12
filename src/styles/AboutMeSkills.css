@@ -46,6 +46,22 @@
 .SkillsList li:hover .SkillProgressInner {
   width: var(--skill-level); /* Use CSS variable to set the width on hover */
 }
+
+.SoftSkillsSection {
+  margin-top: 2rem;
+}
+
+.SoftSkill {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #333; /* or any color that matches your theme */
+}
+
+.SoftSkill strong {
+  color: #19245A; /* a color to highlight key phrases */
+}
+
+
 /* Ensure you add responsive styles for smaller screens */
 @media (max-width: 768px) {
   .SkillsList li {
