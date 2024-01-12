@@ -11,7 +11,7 @@ const Header = () => {
                 
                     
         <NavBar/>
-            {/* Additional header elements can go here */}
+            
         </header>
     );
 }

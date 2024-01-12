@@ -1,0 +1,32 @@
+/* SuccessMessage.css */
+.SuccessMessageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 200px; /* Adjust height as needed */
+    background-color: #020f0f; /* Light background for the success message */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SuccessMessageBox {
+    text-align: center;
+  }
+  
+  .SuccessMessageButton {
+    background-color: #19245A;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+  }
+  
+  .SuccessMessageButton:hover {
+    background-color: #0d1833;
+  }
+  

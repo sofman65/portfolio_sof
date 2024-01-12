@@ -1,53 +1,59 @@
 .SkillsList {
-    list-style-type: none;
-    padding-left: 0;
-  }
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.SkillsList li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.SkillsList li span {
+  text-align: center;
+  width: 100px;
+}
+
+.SkillLogo {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.SkillProgress {
+  flex-grow: 1;
+  background-color: #d8c6c6; /* Background color for the unfilled part */
+  height: 10px;
+  border-radius: 10px;
+  position:relative;
+  margin-left: 1%;
   
+}
+
+
+.SkillProgressInner {
+  background-color: #19245A; /* Background color for the filled part */
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0; /* Start with zero width */
+  transition: width 0.5s ease-in-out;
+}
+
+.SkillsList li:hover .SkillProgressInner {
+  width: var(--skill-level); /* Use CSS variable to set the width on hover */
+}
+/* Ensure you add responsive styles for smaller screens */
+@media (max-width: 768px) {
   .SkillsList li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .SkillLogo {
-    height: 30px;
-    width: 30px;
-    margin-right: 15px;
-    object-fit: contain;
+
+  .SkillProgress, .SkillProgress::after {
+    width: 100%;
   }
-  
-  .SkillProgress {
-    flex-grow: 1;
-    background-color: #d8c6c6; /* Background color for the unfilled part */
-    height: 10px;
-    border-radius: 10px;
-    position:relative;
-    margin-left: 1%;
-    
-  }
-  
-  .SkillProgressInner {
-    background-color: #19245A; /* Background color for the filled part */
-    height: 100%;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 0; /* Start with zero width */
-    transition: width 0.5s ease-in-out;
-  }
-  
-  .SkillsList li:hover .SkillProgressInner {
-    width: var(--skill-level); /* Use CSS variable to set the width on hover */
-  }
-  /* Ensure you add responsive styles for smaller screens */
-  @media (max-width: 768px) {
-    .SkillsList li {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .SkillProgress, .SkillProgress::after {
-      width: 100%;
-    }
-  }
+}
